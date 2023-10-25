@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: rgb(255, 255, 255);
+            background-image: url(download.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        nav {
+            background-color: black;
+            padding: 15px 0; /* Added padding to top and bottom */
+            display: flex;
+            justify-content: space-around; /* Spaced out menu items */
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+            font-size: 16px;
+        }
+        
+        .header-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .photosh {
+            background-color: rgb(233, 241, 243);
+            padding: 10px;
+        }
+        
+        .neeraj-photo {
+            max-width: 30%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .content {
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+            color: rgb(0, 60, 255);
+            
+            -webkit-flow-into: 30px;
+             
+        }
+        
+        .icons {
+            font-size: 24px;
+            margin-top: 20px;
+            letter-spacing: 60px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .follow-us {
+            text-align: center; /* Center the "Follow Us On" heading */
+            background-color: rgb(154, 192, 232);
+            
+        }
+        
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            nav {
+                padding: 10px 0;
+            }
+            
+            nav a {
+                font-size: 14px;
+            }
+
+            .icons {
+                font-size: 20px;
+                margin-top: 10px;
+                letter-spacing: 5px;
+            }
+
+            .neeraj-photo {
+                max-width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>My Website</strong> </h1>
+    
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/Neeraj_CV.html">About Me</a>
+        <a href="/ContactUS.html">Contact Us</a>
+        <a href="/Skills.html">Skills</a>
+    </nav>
+
+    <div class="photosh">
+        <img class="neeraj-photo" src="/Neeraj Photo.jpg" alt="Neeraj Sharma Photo">
+    </div>
+    
+    <div class="content"><strong>NEERAJ SHARMA</strong>  </div>
+
+    <div class="follow-us">
+        <h2>Follow Us On:</h2>
+    </div>
+    
+    <div class="icons">
+        <a href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-youtube"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-square-twitter"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-address-book"></i>
+        </a>        
+
+    </div>
+</body>
+</html>
